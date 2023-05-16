@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frament.ChangePassFragment">
+
+    <EditText
+
+        android:id="@+id/framnetpasscu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="80dp"
+        android:hint="Mật khẩu cũ"
+        android:inputType="textPassword" />
+
+    <EditText
+
+        android:id="@+id/framnetpassmoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="128dp"
+        android:hint="Mật khẩu mới"
+        android:inputType="textPassword" />
+
+    <EditText
+
+        android:id="@+id/framnetpassnhaplaimoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="168dp"
+        android:hint="Nhập lại mật khẩu mới"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/btnluu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="#4E4242"
+            android:text="Lưu" />
+
+        <Button
+
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#4E4242"
+            android:text="Hủy" />
+    </LinearLayout>
+
+</FrameLayout>
